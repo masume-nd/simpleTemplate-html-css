@@ -1,66 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400&display=swap');
-body{
+body {
     font-family: 'Dosis', sans-serif;
 }
-nav{
+
+nav {
     background-color: white !important;
 }
-.boottt66{
+
+.boottt66 {
     font-size: larger;
     color: silver;
 }
-ul{
+
+ul {
     margin-left: 30rem;
 }
-ul li{
+
+ul li {
     padding-left: 0.5rem;
 }
 
-img{
-    position:relative;
+img {
+    position: relative;
     object-fit: cover;
     width: 100%;
-    height: 35rem;
+    /* height: 35rem; */
 }
-.hr-line{
+
+.hr-line {
     display: inline-block;
     width: 50px;
     height: 2px;
     background-color: black;
-} 
-.text-pic{
-    font-size:xx-large;
+}
+
+.text-pic {
+    font-size: xx-large;
     color: white;
     position: absolute;
     bottom: 22rem;
 }
-.text-pic p{
+
+.text-pic p {
     text-transform: uppercase;
 }
-.m-special{
+
+.m-special {
     margin-top: 5rem;
     text-align: center;
 }
-.m-special p{
+
+.m-special p {
     margin: 2rem 0;
 }
-.flex-contain{
+
+.flex-contain {
     width: 100vw;
 }
-.slide{
+
+.slide {
     margin-top: 10rem;
     width: 25vw;
     padding: 6rem;
-    
 }
-.slide:nth-child(n){
+
+.slide:nth-child(n) {
     border: 1px solid rgb(161, 160, 160);
     background-color: rgb(161, 160, 160);
 }
-.slide:nth-child(2n){
+
+.slide:nth-child(2n) {
     border: 1px solid gainsboro;
     background-color: gainsboro;
 }
+
 .blackCircle {
     margin: 0 auto;
     width: 150px;
@@ -75,7 +88,8 @@ img{
     text-align: center;
 }
 
-.blackCircle span ,i{
+.blackCircle span,
+i {
     position: absolute;
 }
 
@@ -91,7 +105,8 @@ img{
     right: 13%;
 }
 
-.iconCircle i ,.circle-icons{
+.iconCircle i,
+.circle-icons {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -103,10 +118,11 @@ img{
     font-size: 1.5rem;
 }
 
-.c-arrow{
-   margin: 5rem 1rem 0 0;
+.c-arrow {
+    margin: 5rem 1rem 0 0;
 }
-.badge{
+
+.badge {
     position: absolute;
     bottom: 5rem;
     left: 6rem;
@@ -116,56 +132,55 @@ img{
     color: black;
     background-color: rgb(255, 174, 0);
 }
-ol{
+
+ol {
     list-style: none;
     padding-left: 1rem;
 }
+
 ol li:before {
     color: rgb(255, 174, 0);
     content: '✓';
 }
-.bottom{
+
+.bottom {
     background-color: rgb(161, 160, 160);
     padding: 2rem 0 2rem 2rem;
 }
-.iconyy{
+
+.iconyy {
     margin-top: 3rem;
 }
+
 .slide-bar:nth-child(odd) {
-    background-color: silver; 
+    background-color: silver;
 }
 
-.bottom img{
-    width:۰ auto;
-    height: 90%;
-    width:90%
-}
-.bottom-text{
+.bottom-text {
     font-size: larger;
     margin-left: 1rem;
 }
 
-footer{
+footer {
     background-color: rgb(75, 74, 74);
     padding: 2rem;
     height: 8rem;
 }
-footer a{
-    
+
+footer a {
     color: rgb(255, 174, 0);
 }
-.footer-icones{
-    font-size: xx-large; 
+
+.footer-icones {
+    font-size: xx-large;
     border: white 1px solid;
     border-radius: 50%;
     background-color: white;
 }
-@media only screen and (max-width:995px){
-    /* .arrow{
-        display: none;
-    } */
-    .footer-text{
-        display: flex;
-        flex-direction: column;
-    }
+
+.footer-text {
+    width: 90%;
+    margin: 0 auto;
 }
+
+@media only screen and (max-width:995px) {}
