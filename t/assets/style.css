@@ -1,0 +1,57 @@
+.c-navbar{
+  display: inline-block;
+}
+.logo{
+  margin-left: 20px;
+  object-fit:unset;
+  width: 100px;
+  height: 100px;
+}
+ul{
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 100px;
+}
+ul li{
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  color: aqua;
+}
+.nav-boxx{
+  width: 100vw;
+  color: aliceblue;
+  background-color: rgb(32, 161, 200);
+}
+ul li a:hover{
+  color: rgb(235, 235, 99);
+  border-top: solid 1px rgb(235, 235, 99);
+  padding-top: 30px;
+}
+.c-center img{
+  object-fit: cover;
+  width: 20rem;
+  height: 20rem;
+  box-shadow: 0.5px 5px 10px;
+}
+
+.caption{
+  width: 20rem;
+  top: 17.5rem;
+}
+.first{
+  left: 3rem;
+}
+.second{
+  left: 24.5rem;
+}
+.third{
+  left: 46rem;
+}
+
+.bottom{
+  color: aliceblue;
+  background-color: rgb(32, 161, 200);
+  padding: 1rem;
+  margin-top: 2rem;
+}
